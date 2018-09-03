@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Todo</title>
+    <title>Toto List</title>
+
+    <h2>TOTO LIST</h2>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -12,6 +14,9 @@
   </head>
 
   <body>
+  <div class = "logo">
+  <%= image_tag("logos/todo.jpeg", width: '150px') %>
+  </div>
 
   <div class="container">
   <%= yield %>
